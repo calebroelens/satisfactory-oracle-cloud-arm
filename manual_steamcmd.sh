@@ -39,7 +39,8 @@ cd ../..
 echo "Fetching Box64..."
 git clone https://github.com/ptitSeb/box64.git
 echo "Building Box64..."
-cd box64mkdir build
+cd box64m
+mkdir build
 cd build
 cmake .. -DRPI4ARM64=1 -DCMAKE_BUILD_TYPE=RelWithDebInfo
 make -j$(nproc)
