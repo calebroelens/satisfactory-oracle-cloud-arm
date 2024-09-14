@@ -1,1 +1,1 @@
-./FactoryServer.sh -log -unattended -ini:Engine:[HTTPServer.Listeners]:DefaultBindAddress=any
+box64 /home/ubuntu/Steam/steamapps/common/SatisfactoryDedicatedServer/FactoryServer.sh -log -unattended -ini:Engine:[HTTPServer.Listeners]:DefaultBindAddress=any

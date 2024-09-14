@@ -54,5 +54,5 @@ mkdir steamcmd
 cd steamcmd
 echo "Downloading SteamCMD..."
 curl -sqL "https://steamcdn-a.akamaihd.net/client/installer/steamcmd_linux.tar.gz" | tar zxvf -
-echo "Starting SteamCMD for the first time."
+echo "Starting SteamCMD for the first time. Type 'quit' when SteamCMD finished updating."
 ./steamcmd.sh
